@@ -47,5 +47,5 @@ git使用
    提交之前先拉取
    $ git pull origin master
    拉取完成后，把本地代码提交到远程仓库，此时需要提交github用户名和密码
-   
+   $ git push origin master
    
