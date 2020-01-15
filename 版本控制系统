@@ -32,3 +32,18 @@ git使用
    查看历史版本信息
    $git log
    $git reflog        包含回滚的信息
+   
+   
+   ===========================================
+   建立本地仓库与远程仓库的链接
+   查看本地仓库和哪些远程仓库保持连接
+   $ git remote -v
+   让本地仓库和远程仓库新建一个链接origin
+   $ git remote add origin [git仓库的地址]
+   
+   删除关联信息
+   $ git remote rm origin
+   
+   
+   
+   
